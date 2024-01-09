@@ -6573,7 +6573,7 @@ h6 {
 
 .service-two__card:hover {
   -webkit-box-shadow: 0 4px 0 0 var(--thm-primary);
-  box-shadow: 0 4px 0 0 var(--thm-primary);
+    /* box-shadow: 0 4px 0 0 var(--thm-primary); */
 }
 
 .service-two__service-page {
@@ -9882,3 +9882,31 @@ padding: 20px 0
 .subImages{
   padding: 0 !important;
 }
+
+@media (min-width: 1200px){
+  .service-two__card-content {
+    height: 250px;
+}
+}
+
+@media (min-width: 1200px){
+  .service-two__card {
+    margin-bottom: 0;
+    padding: 25px 0;
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 1199px){
+  .service-two__card-content {
+    height: 280px !important;
+}
+
+}
+
+.product_heading{
+  text-decoration: underline;
+}
+
+
+
