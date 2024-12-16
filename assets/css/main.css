@@ -9031,13 +9031,6 @@ padding-left: 20px;
   }
 }
 
-
-.product-details .row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 .product-card {
   position: relative;
   background-color: #fff;
@@ -9051,6 +9044,7 @@ padding-left: 20px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
+  background-color: #cbcbcb;
 }
 
 .allproductImage img{
